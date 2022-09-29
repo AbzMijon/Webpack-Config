@@ -1,0 +1,88 @@
+//Imports
+@import url(./reset.scss);
+
+//Defolt settings
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	background-color: #ffffff;
+	background-size: cover;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	transition: 0.2s ease-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1,
+.title1 {
+	color: #000000;
+	font-weight: 700;
+	font-size: 54px;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+h2,
+.title2 {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 42px;
+	z-index: 51;
+}
+
+h3,
+.title3 {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+h4,
+.title4 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+h5,
+.title5 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+h6,
+.title6 {
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.container {
+	max-width: 1250px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
